@@ -1,5 +1,7 @@
 import requests
 
+current_price = 2000
+
 cookies = {
     'FPLC': 'Xsc%2BN%2FAqlMeMIZUdl19znRqp%2Bm4KJgWCDJliCgoOhpA7xl9wrw5mnVK3dgBFTgtG2208IrX5xfEFPoSWPqf4veAV%2FhP3KSamwyMEjSV%2Bdpx3IKlx3ALjFql3zlEy2Q%3D%3D',
     'FPID': 'FPID2.2.5qeJqMh3anOoyQH%2BQqRaicMTEm8C3PFA7976XwaA%2Fyw%3D.1691235292',
@@ -112,7 +114,6 @@ response = requests.post(
 
 response_as_json = response.json()
 optional_price = response_as_json["data"]["searchQueries"]["searchAcidCarousel"]["acidCards"][0]["priceDisplayInfo"]["displayPrice"]["amountPerStay"]["amountRounded"]
-optional_price_as_number = ''.join(filter(str.isdigit, optional_price))
+optional_price_as_number = int(''.join(filter(str.isdigit, optional_price)))
 if optional_price_as_number < current_price:
     print("found a better price! you are paying {current} while today its {optional}".format(current=current_price, optional=optional_price_as_number))
-print(response.json())
