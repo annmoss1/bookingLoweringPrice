@@ -32,8 +32,8 @@ How to run:
                 e. In the Actions tab:
                             press new 
                             In Action choose: Start a program. 
-                            In Program/script put the absolute path to the python.exe (for example C:\Users\anmoss\AppData\Local\Programs\Python\Python38-                                                                        32\pythonw.exe)
-                            in Add arguments put the absolute path to the script booking_seleniym.py between "" (for example "c:/Users/user/OneDrive -                                                                              Microsoft/github/bookingLoweringPrice/booking_selenium.py")
+                            In Program/script put the absolute path to the python.exe (for example C:\Users\user\AppData\Local\Programs\Python\Python38-32\python.exe)
+                            in Add arguments put the absolute path to the script booking_seleniym.py between "" (for example "c:/Users/user/OneDrive - Microsoft/user/github/bookingLoweringPrice/booking_selenium.py")
                 f. In the Conditions path disable everything
                 g. In the settings tab mark 'Run task as soon as possible after a scheduled start is missed'
 
