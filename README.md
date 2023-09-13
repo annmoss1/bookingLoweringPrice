@@ -37,8 +37,8 @@ How to run:
                 f. In the Conditions path disable everything
                 g. In the settings tab mark 'Run task as soon as possible after a scheduled start is missed'
 
-        ** I suggest to trigger it once manually with a high price in the json to verify that the trigger is working and that you seeing the mail (check also spam).
 
 ***************************************************************************
+** I suggest to trigger it once manually with a high price in the json to verify that the trigger is working and that you seeing the mail (check also spam).
 ![image](https://github.com/annmoss1/bookingLoweringPrice/assets/122597424/57e33464-e82e-4ca0-bb7e-8452af3044e8)
 ***************************************************************************
