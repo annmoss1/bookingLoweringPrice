@@ -10,16 +10,26 @@ booking_network is another script that was working partially, due to lakes with 
 ***********************************************************************
 How to run:
 ***********************************************************************
+
     1) Clone
     2) Edit the searches.json. For each hotel you want to follow, enter the following fields for each search you want to add (use the attached template in searches.json):
             url: go to booking.com, fill in the search details + filters that you want to follow, press search and copy the URL to the JSON.
             current_price: The current\ starting price is in ILS. When the script detects a lower price, it will send you an email.
             my_mail: your email address
-    3) Add a scheduled task in Windows \ crone job in Linux that will run the script once a day. You can do it on your local machine, or on a VM.
-            to configure a new scheduled task in Windows that runs this script every day-
+    3) To run manually just run the booking_selenium script.
+        To add scheduled runs follow the following instructions:
+        Add a scheduled task in Windows \ crone job in Linux that will run the script once a day. You can do it on your local machine, or on a VM.
+            To configure a new scheduled task in Windows that runs this script every day:
                 a. Open Task Scheduler
                 b. Press under Actions 'Create Task'
                 c. In the general tab: 
-                            give it a name, description. choose 'Run whether user is logged on or not'
+                            give it a name, and description. choose 'Run whether user is logged on or not'
                 d. In the triggers tab:
-                    
+                            press new and add a trigger (for example Daily) and press ok.
+                e. In the Actions tab:
+                            press new 
+                            In Action choose: Start a program. 
+                            In Program/script put the absolute path to the python.exe (for example C:\Users\anmoss\AppData\Local\Programs\Python\Python38-                                                                                                32\pythonw.exe)
+                            in Add arguments put the absolute path to the script booking_seleniym.py between "" (for example "c:/Users/user/OneDrive -                                                                                         Microsoft/github/bookingLoweringPrice/booking_selenium.py")
+                f. In the Conditions path disable everything
+                g. In the settings tab mark 'Run task as soon as possible after a scheduled start is missed'
