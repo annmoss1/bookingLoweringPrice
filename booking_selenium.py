@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 import smtplib
 import json
 
-with open('searches.json') as f:
+with open('./searches.json') as f:
     data = json.load(f)
 
 options = webdriver.ChromeOptions()
