@@ -1,7 +1,7 @@
 # Booking Lowering Price Script
 
 ************************************************************************************************************************************************************************************
-booking_selenium is the correct script, working with selenium. 
+booking_selenium is the correct script, working with selenium. \n
 booking_network is the previous script that was working partially, due to lakes with booking.com API (without mail support yet- its not ready), keeping it in case the API changes. 
 ************************************************************************************************************************************************************************************
 
