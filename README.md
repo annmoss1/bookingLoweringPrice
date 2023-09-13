@@ -1,5 +1,7 @@
 # Booking Lowering Price Script
 
+With this script, you can follow a specific hotel search in booking.com and get an email if the price is decreased.
+
 ************************************************************************************************************************************************************************************
 booking_selenium is the correct script, it is working with selenium.
 
