@@ -16,8 +16,7 @@ How to run:
             url: go to booking.com, fill in the search details + filters that you want to follow, press search and copy the URL to the JSON.
             current_price: The current\ starting price is in ILS. When the script detects a lower price, it will send you an email.
             my_mail: your email address
-            ![image](https://github.com/annmoss1/bookingLoweringPrice/assets/122597424/5e30efb4-2cc7-49ca-84db-7962ba82fee8)
-
+            
     3) To run manually just run the booking_selenium script.
         To add scheduled runs follow the following instructions:
         Add a scheduled task in Windows \ crone job in Linux that will run the script once a day. You can do it on your local machine, or on a VM.
