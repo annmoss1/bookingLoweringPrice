@@ -14,7 +14,7 @@ How to run:
 ***********************************************************************
 
     1) Clone
-    2) Edit the searches.json. For each hotel you want to follow, enter the following fields for each search you want to add (use the attached template in searches.json):
+    2) Edit the searches.json. For each hotel you want to follow, enter the following fields (use the attached template in searches.json):
             url: go to booking.com, fill in the search details + filters that you want to follow, press search and copy the URL to the JSON.
             current_price: The current\ starting price is in ILS. When the script detects a lower price, it will send you an email.
             my_mail: your email address
