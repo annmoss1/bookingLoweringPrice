@@ -32,13 +32,13 @@ How to run:
                 e. In the Actions tab:
                             press new 
                             In Action choose: Start a program. 
-                            In Program/script put the absolute path to the python.exe (for example C:\Users\anmoss\AppData\Local\Programs\Python\Python38-                                                                                                32\pythonw.exe)
-                            in Add arguments put the absolute path to the script booking_seleniym.py between "" (for example "c:/Users/user/OneDrive -                                                                                         Microsoft/github/bookingLoweringPrice/booking_selenium.py")
+                            In Program/script put the absolute path to the python.exe (for example C:\Users\anmoss\AppData\Local\Programs\Python\Python38-                                                                        32\pythonw.exe)
+                            in Add arguments put the absolute path to the script booking_seleniym.py between "" (for example "c:/Users/user/OneDrive -                                                                              Microsoft/github/bookingLoweringPrice/booking_selenium.py")
                 f. In the Conditions path disable everything
                 g. In the settings tab mark 'Run task as soon as possible after a scheduled start is missed'
 
         ** I suggest to trigger it once manually with a high price in the json to verify that the trigger is working and that you seeing the mail (check also spam).
 
 ***************************************************************************
-[image](https://github.com/annmoss1/bookingLoweringPrice/assets/122597424/57e33464-e82e-4ca0-bb7e-8452af3044e8)
+![image](https://github.com/annmoss1/bookingLoweringPrice/assets/122597424/57e33464-e82e-4ca0-bb7e-8452af3044e8)
 ***************************************************************************
