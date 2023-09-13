@@ -49,7 +49,7 @@ for item in data:
 
     min_price = min(new_price_list)
 
-    if int(min_price) < int(current_price):
+    if int(min_price)+50 < int(current_price): # 50 ILS is the minimum price difference to send an email
         text = f'The price was dropped. \n The last price for hotel {name_first_hotel} from {checkin_date} to {checkout_date} for {num_of_adults} adults and {num_of_children} children in {num_of_rooms} rooms was {current_price}₪ and now it is {min_price}₪. To book it, go to: {url}'
         print(text)
 
