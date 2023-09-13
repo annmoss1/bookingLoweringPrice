@@ -5,7 +5,7 @@ With this script, you can follow a specific hotel search in booking.com and get 
 ************************************************************************************************************************************************************************************
 booking_selenium is the correct script, it is working with selenium.
 
-booking_network is another script that was working partially, due to lakes with booking.com API (without mail support yet- it is not ready), keeping it in case the API changes. 
+booking_deprecated is another script that was working partially, due to lakes with booking.com API (without mail support yet- it is not ready), keeping it in case the API changes. 
 ************************************************************************************************************************************************************************************
 
 
